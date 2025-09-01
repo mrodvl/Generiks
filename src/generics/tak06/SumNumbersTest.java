@@ -23,9 +23,12 @@ public class SumNumbersTest {
 
     // Сигнатура метода (реализуй тело)
     public static double sumNumbers(List<? extends Number> list) {
+        double sumNums = 0;
+        for (Number n : list) {
+            sumNums += n.doubleValue();
+        }
+        return sumNums;
 
-
-        return 0.0;
     }
 }
 
