@@ -1,4 +1,4 @@
-package generics.tak06;
+package generics.task06;
 
 import java.util.*;
 
